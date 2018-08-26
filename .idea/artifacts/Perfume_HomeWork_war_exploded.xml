@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Perfume_HomeWork:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Perfume_HomeWork_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Perfume_HomeWork/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Perfume_HomeWork" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../library/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/gson-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/jquery-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/sitemesh-2.4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/fastjson-1.2.47.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/mssql-jdbc-6.4.0.jre8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/mysql-connector-java-8.0.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../library/jackson-databind-2.9.5-javadoc.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
